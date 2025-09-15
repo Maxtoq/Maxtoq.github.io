@@ -1,1 +1,84 @@
-E
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maxime Toquebiau - My publications</title>
+  <link rel="stylesheet" href="/style.css"  />
+  <meta name="description" content="Maxime Toquebiau's publications." /> 
+</head>
+<body>
+  <div class="navbar">
+    <li><a href="https://github.com/Maxtoq"><img src="/imgs/github-mark-white.svg" class="button_logo"></a></li>
+    <li><a href="https://scholar.google.com/citations?user=vQdPFy8AAAAJ&hl=en&oi=sra"><img src="/imgs/scholar.svg" class="button_logo"></a></li>
+    <li><a href="/index.html">CV</a></li>
+    <li><a href="/pages/pubs.html">Publications</a></li>
+  </div>
+
+  <div class="main">
+    <section class="intro">
+      <!-- <img src="imgs/profile.jpg" alt="Profile Picture" class="profile-img"> -->
+      <h1>Maxime Toquebiau, PhD</h1>
+      <h3>Postdoctoral Researcher in Language Evolution</h3>
+    </section>
+
+    <div class="publication-list">
+        <a href="https://arxiv.org/abs/2506.05236" class="pub-link">
+        <div class="pub-entry">
+            <h2>Towards Language-Augmented Multi-Agent Deep Reinforcement Learning</h2>
+            <ul class="pub-tags">
+                <li>Conference</li>
+                <li>Language</li>
+                <li>Communication</li>
+                <li>MADRL</li>
+            </ul>
+            <p><b>Maxime Toquebiau</b>, Jae-Yun Jun Kim, Faïz Ben Amar, Nicolas Bredeche</p>
+            <p><i>ECAI 2025</i> </p>
+            <p class="pub-abstract">
+                <b>Abstract.</b> Most prior works on communication in multi-agent reinforcement learning have focused on emergent communication, which often results in inefficient and non-interpretable systems. Inspired by the role of language in natural intelligence, we investigate how grounding agents in a human-defined language can improve the learning and coordination of embodied agents. We propose a framework in which agents are trained not only to act but also to produce and interpret natural language descriptions of their observations. This language-augmented learning serves a dual role: enabling efficient and interpretable communication between agents, and guiding representation learning. We demonstrate that language-augmented agents outperform emergent communication baselines across various tasks. Our analysis reveals that language grounding leads to more informative internal representations, better generalization to new partners, and improved capability for human-agent interaction. These findings demonstrate the effectiveness of integrating structured language into multi-agent learning and open avenues for more interpretable and capable multi-agent systems. 
+            </p>
+        </div>
+        </a>
+
+        <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2024.0148" class="pub-link">
+        <div class="pub-entry">
+            <h2>Signalling and social learning in swarms of robots</h2>
+            <ul class="pub-tags">
+                <li>Journal</li>
+                <li>Communication</li>
+                <li>Swarm robotics</li>
+            </ul>
+            <p>Leo Cazenille, <b>Maxime Toquebiau</b>, Nicolas Lobato-Dauzier, Alessia Loi, Loona Macabre, Nathanaël Aubert-Kato, Anthony J. Genot, Nicolas Bredeche</p>
+            <p><i>Philosophical Transactions of the Royal Society A, 2025</i> </p>
+            <p class="pub-abstract">
+                <b>Abstract.</b> This paper investigates the role of communication in improving coordination within robot swarms, focusing on a paradigm where learning and execution occur simultaneously in a decentralized manner. We highlight the role communication can play in addressing the credit assignment problem (individual contribution to the overall performance), and how it can be influenced by it. We propose a taxonomy of existing and future works on communication, focusing on information selection and physical abstraction as principal axes for classification: from low-level lossless compression with raw signal extraction and processing to high-level lossy compression with structured communication models. The paper reviews current research from evolutionary robotics, multi-agent (deep) reinforcement learning, language models and biophysics models to outline the challenges and opportunities of communication in a collective of robots that continuously learn from one another through local message exchanges, illustrating a form of social learning.
+            </p>
+        </div>
+        </a>
+
+        <a href="https://dl.acm.org/doi/abs/10.5555/3635637.3663214" class="pub-link">
+        <div class="pub-entry">
+            <h2>Joint Intrinsic Motivation for Coordinated Exploration in MADRL</h2>
+            <ul class="pub-tags">
+                <li>Conference</li>
+                <li>Exploration</li>
+                <li>Intrinsic Motivation</li>
+                <li>MADRL</li>
+            </ul>
+            <p><b>Maxime Toquebiau</b>, Nicolas Bredeche, Faïz Ben Amar, Jae-Yun Jun Kim</p>
+            <p><i>Proceedings of the 23rd International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2024)</i> </p>
+            <p class="pub-abstract">
+                <b>Abstract.</b> Multi-agent deep reinforcement learning (MADRL) problems often encounter the challenge of sparse rewards. This challenge becomes even more pronounced when coordination among agents is necessary. As performance depends not only on one agent's behavior but rather on the joint behavior of multiple agents, finding an adequate solution becomes significantly harder. In this context, a group of agents can benefit from actively exploring different joint strategies in order to determine the most efficient one. In this paper, we propose an approach for rewarding strategies where agents collectively exhibit novel behaviors. We present JIM (Joint Intrinsic Motivation), a multi-agent intrinsic motivation method that follows the centralized learning with decentralized execution paradigm. JIM rewards joint trajectories based on a centralized measure of novelty designed to function in continuous environments. We demonstrate the strengths of this approach both in a synthetic environment designed to reveal shortcomings of state-of-the-art MADRL methods, and in simulated robotic tasks. Results show that joint exploration is crucial for solving tasks where the optimal strategy requires a high level of coordination. 
+            </p>
+        </div>
+        </a>
+    </div>
+
+    <div class="contact">
+        <h1>Contact</h1>
+        <p>E-mail: <a href="mailto:maxime.toquebiau@vub.be">maxime.toquebiau@vub.be</a></p>
+    </div>
+  </div>
+<script src="script.js"></script> 
+</body>
+</html>

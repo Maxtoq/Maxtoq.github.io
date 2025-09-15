@@ -91,7 +91,7 @@ body {
   background-color: #1a3150;
   padding: 20px 24px;
   margin-bottom: 10px;
-  height: 300px;
+  height: 200px;
   display: flex;  
   flex-direction: column;
   justify-content: center;
@@ -136,7 +136,7 @@ body {
 .centered-block > section {
   max-width: 90%;
   margin: 32px auto;
-  background: #fff;
+  background: #6888b3;
   box-shadow: 0 2px 16px rgba(0,0,0,0.08);
   border-radius: 12px;
   padding: 20px 24px;
@@ -157,12 +157,12 @@ body {
 }
 
 .active, .collapsible:hover {
-  background-color: #f3f3f3;
+  background-color: #3e6292;
 }
 
 .collapsible h2 {
-  color: #0e3466;
-  border-bottom: 2px solid #f5c400;
+  color: white;
+  border-bottom: 2px solid white;
   padding-bottom: 0.3em;
   margin-bottom: 1em;
 }
@@ -201,6 +201,18 @@ body {
   text-decoration: underline;
 }
 
+
+/* CONTACT */
+
+.contact {
+  text-align: center;
+  padding: 20px 24px;
+  max-width: 90%;
+  margin:auto;
+  color: #0e3466;
+}
+
+
 /* Responsive adjustments */
 /* @media (max-width: 600px) {
   .centered-block > section {
@@ -220,11 +232,6 @@ body {
 
 
 
-
-
-
-
-
  /* .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) 
   font-size: 13px;
@@ -234,3 +241,72 @@ body {
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) 
 } */
+
+/* PUBLICATIONS ENTRIES */
+
+.publication-list {
+  max-width: 90%;
+  align-items: top;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.pub-entry {
+  background: #fff;
+  border-radius: 15px;
+  border-color: #1a3150;
+  border: 1px solid #1a3150;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 10px 40px;
+  margin: 20px;
+  width: 500px;
+  /* height: 550px; */
+  text-align: center;
+  overflow: scroll;
+  cursor: pointer;
+}
+
+.pub-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pub-entry h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #95a9c4;
+}
+
+.pub-entry:hover {
+  border: 2px solid #1a3150;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+/* .pub-entry:hover h2 {
+  text-decoration: underline;
+} */
+
+.pub-abstract {
+  font-size: 14px;
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
+  padding-bottom: 20px;
+}
+
+.pub-tags {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pub-tags li {
+  background: #c1cddd;
+  border-radius: 4px;
+  padding: 5px 8px;
+  margin: 0 2px;
+  font-size: 12px;
+  display: inline-block;
+}
