@@ -1,0 +1,236 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f4f7fb;
+  color: #2a2a2a; */
+  background-image: url("imgs/whale_tile_s.png");
+  background-repeat: repeat;
+  /* background-attachment: fixed; */
+}
+
+
+
+
+/* NAV BAR */
+
+.navbar {
+  overflow: hidden;
+  background-color: #1a3150;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  height: 50px;
+  z-index:1000;
+}
+
+.navbar li a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.button_logo {
+  width: 20px; 
+  height: 20px;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin-top: 50px;
+}
+
+/* .nav {
+  height: 50px;
+  list-style-type: none;
+  max-width: 90%;
+  margin: 0 auto 16px auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  background: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #f3f3f3;
+} */
+
+
+
+/* INTRO */
+
+.intro {
+  position: relative;
+  border-radius: 0;
+  background-color: #1a3150;
+  padding: 20px 24px;
+  margin-bottom: 10px;
+  height: 300px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* text-align: center; */
+  color: white;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.1); 
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 10px rgba(0,0,0,0.1);
+  margin-right: 32px; 
+  margin-left: 0;
+  background: #fff;
+}
+
+/* .banner {
+  background-color: #005f8f;
+  text-align: center;
+  padding: 0;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+} */
+
+
+
+/* CV BLOCKS */
+
+.centered-block > section {
+  max-width: 90%;
+  margin: 32px auto;
+  background: #fff;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 20px 24px;
+  position: relative;
+  /* z-index: 1; */
+  display: block; /* Changed from flex to block */
+}
+
+
+
+/* CV COLLAPSIBLES */
+
+.collapsible {
+  margin-bottom: 0 !important;
+  cursor: pointer;
+  padding: 10px 24px !important;
+  border-radius: 0 !important;
+}
+
+.active, .collapsible:hover {
+  background-color: #f3f3f3;
+}
+
+.collapsible h2 {
+  color: #0e3466;
+  border-bottom: 2px solid #f5c400;
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+.cv_content {
+  max-width: 90%;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  margin: 0px auto;
+  background: #fff;
+}
+
+.edu-entry, .work-entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #E7E9EB;
+}
+
+.institution_logo {
+  width: 100px;
+  height: 70px;
+  object-fit: contain;
+  margin-right: 1em;
+}
+
+.cv_content a {
+  color: #005f8f;
+  text-decoration: none;
+} 
+
+.cv_content a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+/* @media (max-width: 600px) {
+  .centered-block > section {
+    padding: 12px 6px;
+  }
+  .intro {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .profile-img {
+    margin: 0 0 16px 0;
+  }
+  .intro-text {
+    padding: 12px 8px;
+  }
+} */
+
+
+
+
+
+
+
+
+ /* .collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) 
+  font-size: 13px;
+  color: white;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) 
+} */
