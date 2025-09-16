@@ -136,9 +136,10 @@ body {
 .centered-block > section {
   max-width: 90%;
   margin: 32px auto;
-  background: #486a96;
+  background: #ffffff;
+  border: 1px solid #1a3150;
   box-shadow: 0 2px 16px rgba(0,0,0,0.08);
-  border-radius: 12px;
+  border-radius: 5px;
   padding: 20px 24px;
   position: relative;
   /* z-index: 1; */
@@ -153,16 +154,16 @@ body {
   margin-bottom: 0 !important;
   cursor: pointer;
   padding: 10px 24px !important;
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
 }
 
 .active, .collapsible:hover {
-  background-color: #3e6292;
+  background-color: #f7faff;
 }
 
 .collapsible h2 {
-  color: white;
-  border-bottom: 2px solid white;
+  color: #1a3150;
+  border-bottom: 2px solid #1a3150;
   padding-bottom: 0.3em;
   margin-bottom: 1em;
 }
