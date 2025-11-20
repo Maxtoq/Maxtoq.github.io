@@ -91,12 +91,11 @@ body {
   background-color: #1a3150;
   padding: 20px 24px;
   margin-bottom: 10px;
-  height: 200px;
+  /* height: 200px; */
   display: flex;  
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   /* text-align: center; */
   color: white;
   box-shadow: 0 2px 16px rgba(0,0,0,0.1); 
@@ -104,6 +103,15 @@ body {
 
 .intro h1 {
   font-size: 40px;
+}
+
+.intro-text {
+  max-width: 1000px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .profile-img {
@@ -266,7 +274,7 @@ body {
   /* height: 550px; */
   text-align: center;
   overflow: scroll;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .pub-link {
@@ -283,10 +291,6 @@ body {
   border: 2px solid #1a3150;
   box-shadow: 0 4px 16px rgba(0,0,0,0.2);
 }
-
-/* .pub-entry:hover h2 {
-  text-decoration: underline;
-} */
 
 .pub-abstract {
   font-size: 14px;
@@ -310,4 +314,49 @@ body {
   margin: 0 2px;
   font-size: 12px;
   display: inline-block;
+}
+
+.pub-links {
+  display: block;
+  margin: auto;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.pub-links li {
+  /* overflow: hidden;
+  background-color: #1a3150; */
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  height: 50px;
+  z-index:1000; */
+  /* display: flex; */
+  font-size: 14px;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+/* .pub-links li a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+} */
+
+.pub-links a:hover {
+  background: hsl(200, 19%, 85%);
+  color: black;
+}
+
+.bib {
+  font-size: 11px;
+  text-align: left;
+  background: hsl(214, 21%, 85%);
+  border-radius: 4px;
+  padding: 5px 5px;
 }
