@@ -9,6 +9,7 @@
 </head>
 <body>
   <div class="navbar">
+    <li><a href="/index.html"><img src="/imgs/home.svg" class="button_logo"></a></li>
     <li><a href="https://github.com/Maxtoq"><img src="/imgs/github-mark-white.svg" class="button_logo"></a></li>
     <li><a href="https://scholar.google.com/citations?user=vQdPFy8AAAAJ&hl=en&oi=sra"><img src="/imgs/scholar.svg" class="button_logo"></a></li>
     <li><a href="/index.html">CV</a></li>
@@ -20,12 +21,33 @@
     <section class="intro">
       <!-- <img src="imgs/profile.jpg" alt="Profile Picture" class="profile-img"> -->
       <h1>Maxime Toquebiau, PhD</h1>
-      <h3>Postdoctoral Researcher in Language Evolution</h3>
+      <h3>Postdoctoral Researcher in Language Evolution, at VUB AI Research Group</h3>
     </section>
 
     <div class="publication-list">
         
-        <a href="https://ebooks.iospress.nl/volumearticle/76196" class="pub-link">
+        <a href="" class="pub-link">
+        <div class="pub-entry">
+            <h2>Cultural Evolution Drives the Emergence of Conventions in Neural Emergent Communication</h2>
+            <div class="pub-content">
+                <img class="pub-image" src="/imgs/cultural-evo.png" alt="Cultural evolution">
+                <div class="pub-info">
+                    <ul class="pub-tags">
+                        <li>Conference</li>
+                        <li>Language Evolution</li>
+                        <li>Emergent Communication</li>
+                    </ul>
+                    <p><b>Maxime Toquebiau</b>, Jérôme Botoko Ekila, Paul Van Eecke, and Katrien Beuls</p>
+                    <p><i>Conference on Empirical Methods in Natural Language Proceedings (EMNLP), 2026</i> </p>
+                    <p class="pub-abstract">
+                        <b>Abstract.</b> Recent studies of language evolution with neural agents often use models where agents can either speak or listen, where there are only two agents in the population, or where agents can share internal representations. These choices prevent the study of how language emerges through cultural evolution, i.e. through the cumulative adaptation of individual behaviours to fit the communicative needs of the community. We tackle this issue with a new model that trains populations of bi-directional neural agents in a fully distributed fashion to solve a referential game. We demonstrate the effectiveness of this approach on multiple image datasets and show that it is able to scale to large populations. We also show that more conventional languages are easier to learn, providing a direct advantage for cultural transmission. Overall, this work provides a novel approach to neural emergent communication that opens up new directions for evolutionary linguistics.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </a>
+        
+        <a href="https://doi.org/10.3233/FAIA251260" class="pub-link">
         <div class="pub-entry">
             <h2>Towards Language-Augmented Multi-Agent Deep Reinforcement Learning</h2>
             <div class="pub-content">
@@ -38,9 +60,19 @@
                         <li>MADRL</li>
                     </ul>
                     <p><b>Maxime Toquebiau</b>, Jae-Yun Jun Kim, Faïz Ben Amar, Nicolas Bredeche</p>
-                    <p><i>European Conference on Artificial Intelligence, 2025</i> </p>
+                    <p><i>European Conference on Artificial Intelligence (ECAI), 2025</i> </p>
                     <p class="pub-abstract">
                         <b>Abstract.</b> Most prior works on communication in multi-agent reinforcement learning have focused on emergent communication, which often results in inefficient and non-interpretable systems. Inspired by the role of language in natural intelligence, we investigate how grounding agents in a human-defined language can improve the learning and coordination of embodied agents. We propose a framework in which agents are trained not only to act but also to produce and interpret natural language descriptions of their observations. This language-augmented learning serves a dual role: enabling efficient and interpretable communication between agents, and guiding representation learning. We demonstrate that language-augmented agents outperform emergent communication baselines across various tasks. Our analysis reveals that language grounding leads to more informative internal representations, better generalization to new partners, and improved capability for human-agent interaction. These findings demonstrate the effectiveness of integrating structured language into multi-agent learning and open avenues for more interpretable and capable multi-agent systems. 
+                        <p class="bib">@InProceedings{Toquebiau2025_LAMARL,<br>
+                            author    = {Toquebiau, Maxime and Jun, Jae-Yun and Benamar, Faïz and Bredeche, Nicolas},<br>
+                            booktitle = {28th European Conference on Artificial Intelligence, 25-30 October 2025, Bologna, Italy – Including 14th Conference on Prestigious Applications of Intelligent Systems (PAIS 2025)},<br>
+                            title     = {Towards Language-Augmented Multi-Agent Deep Reinforcement Learning},<br>
+                            year      = {2025},<br>
+                            series    = {Frontiers in Artificial Intelligence and Applications},<br>
+                            volume    = {413},<br>
+                            doi       = {10.3233/FAIA251260},<br>
+                            }
+                        </p>
                     </p>
                 </div>
             </div>
